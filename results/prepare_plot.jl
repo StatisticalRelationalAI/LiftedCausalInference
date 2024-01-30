@@ -1,4 +1,4 @@
-@isdefined(nanos_to_millis) || include(string(@__DIR__, "/../eval/helper.jl"))
+@isdefined(nanos_to_millis) || include(string(@__DIR__, "/../src/helper.jl"))
 
 """
 	merge_results(outdir=string(@__DIR__, "/../results/"))
